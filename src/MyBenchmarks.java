@@ -8,7 +8,7 @@ import java.util.Random;
 
 public class MyBenchmarks{
     public static void main(String args[]){
-        MainWindow.launchGrapher(MyBenchmarks.class);   //the class passed to launchGrapher() is the class which it gets extra test methods from.
+        Visualizer.launch(MyBenchmarks.class);   //the class passed to launchGrapher() is the class which it gets extra test methods from.
     }
 
     //This method does nothing, let it be your canvas :)
